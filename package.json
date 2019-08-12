@@ -2,11 +2,13 @@
   "name": "movieql-client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://wonderotter.github.io/movieql-client",
   "dependencies": {
     "@babel/core": "^7.5.5",
     "apollo-boost": "^0.4.4",
     "babel": "^6.23.0",
     "concurrently": "^4.1.1",
+    "gh-pages": "2.0.1",
     "graphql": "^14.4.2",
     "graphql-tag": "^2.10.1",
     "prop-types": "^15.7.2",
@@ -22,7 +24,9 @@
   "scripts": {
     "start": "concurrently --kill-others-on-fail \"yarn server\" \"react-scripts start\"",
     "build": "react-scripts build",
-    "server": "cd movieql-api && yarn start"
+    "server": "cd movieql-api && yarn start",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

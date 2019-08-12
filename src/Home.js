@@ -23,7 +23,7 @@ const Home = () => (
                 <Movie 
                 key={movie.id} 
                 id={movie.id }
-                title={movie.title_long}
+                title={movie.title}
                 poster={movie.medium_cover_image}
                 rating={movie.rating} 
                 />

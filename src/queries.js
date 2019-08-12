@@ -2,9 +2,9 @@ import gql from 'graphql-tag';
 
 export const HOME_PAGE = gql`
     query {
-        movies(genre: "Romance", rating: 7, limit: 50){
+        movies(rating: 8, limit: 30){
             id
-            title_long
+            title
             rating
             genres
             medium_cover_image
@@ -18,7 +18,7 @@ export const DETAIL_PAGE = gql`
     query getMovieDetails($movieId: Int!){
         movie(id: $movieId){
             medium_cover_image
-            title_long
+            title
             rating
             description_intro
             language
@@ -27,7 +27,7 @@ export const DETAIL_PAGE = gql`
         suggestions(id: $movieId) {
             id
             medium_cover_image
-            title_long
+            title
             rating
         }
     }

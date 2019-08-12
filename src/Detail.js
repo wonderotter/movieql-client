@@ -66,7 +66,7 @@ const Detail = ({ match: { params: { movieId } } }) => {
                                     <Movie
                                         key={movie.id}
                                         id={movie.id}
-                                        title={movie.title_long}
+                                        title={movie.title}
                                         rating={movie.rating}
                                         poster={movie.medium_cover_image}
                                     />
