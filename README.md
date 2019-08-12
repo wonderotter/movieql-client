@@ -1,10 +1,10 @@
-## MovieQL
+# MovieQL
 
 Client for the Moiveql API built with Apollo
 
 링크 : https://youtu.be/ZqNFgnlGx78
 
-# Screenshots
+## Screenshots
 
 ![home](https://user-images.githubusercontent.com/45552388/62883452-05edc980-bd6f-11e9-8e1c-6e24270173ed.png)
 
