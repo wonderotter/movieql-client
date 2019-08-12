@@ -12,26 +12,25 @@ const Container = styled.div`
 `;
 
 const Home = () => (
-    <Container>
         <Query query={HOME_PAGE}>
         {
             ({ loading, data, error}) => {
-        if(loading) return <span>Loading</span>;
-        if(error) return <span>Error</span>;
+        if(loading) return <h3>Loading</h3>;
+        if(error) return <h3>Error</h3>;
         if(data){
-        return data.movies.map(movie => (
-            <Movie 
-            key={movie.id} 
-            id={movie.id }
-            title={movie.title_long}
-            poster={movie.medium_cover_image}
-            rating={movie.rating} 
-            />
-            ));
+            return <Container>
+            {data.movies.map(movie => (
+                <Movie 
+                key={movie.id} 
+                id={movie.id }
+                title={movie.title_long}
+                poster={movie.medium_cover_image}
+                rating={movie.rating} 
+                />
+            ))}</Container>;
         }}
         }  
         </Query>
-    </Container>
     );
 
 export default Home;
