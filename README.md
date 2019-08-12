@@ -4,11 +4,14 @@ Client for the Moiveql API built with Apollo
 
 링크 : https://youtu.be/ZqNFgnlGx78
 
-#Screenshots
+# Screenshots
 
-![home](https://user-images.githubusercontent.com/45552388/62883032-21a4a000-bd6e-11e9-8ad0-acaee5d10105.png)
+![home](https://user-images.githubusercontent.com/45552388/62883452-05edc980-bd6f-11e9-8e1c-6e24270173ed.png)
 
-![detail_page](https://user-images.githubusercontent.com/45552388/62883245-91b32600-bd6e-11e9-9806-d20ce0636707.png)
 
-![suggestion_part](https://user-images.githubusercontent.com/45552388/62883290-b0192180-bd6e-11e9-8911-9cdeebc74813.png)
+![detail](https://user-images.githubusercontent.com/45552388/62883475-156d1280-bd6f-11e9-8531-2bde0c270a95.png)
+
+
+![suggestion](https://user-images.githubusercontent.com/45552388/62883495-23bb2e80-bd6f-11e9-9f07-8efcb20cfc79.png)
+
 
